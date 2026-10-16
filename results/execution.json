@@ -1,0 +1,23 @@
+{
+  "id": "005",
+  "status": "executed",
+  "commands": [
+    "python src/resolve_duplicates.py sample/customers.csv --fields name,email,address --threshold 82"
+  ],
+  "elapsed_seconds": 2.02,
+  "python": "3.13.5",
+  "inputs": [
+    {
+      "file": "sample/customers.csv",
+      "sha256": "443f493fe79ab89cf5a45b6a003009c1ac500d678bbcf87062c8ffdcdd654bd8"
+    }
+  ],
+  "output_artifacts": [
+    {
+      "file": "results/execution.txt",
+      "sha256": "1b0f293994c4c44e8b2b1b9c527bea269381961d6bebff33aeb0dffd1c28c06e",
+      "bytes": 457
+    }
+  ],
+  "observations": "Local execution using bundled fixtures; not an external performance evaluation."
+}

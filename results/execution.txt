@@ -1,0 +1,24 @@
+$ python src/resolve_duplicates.py sample/customers.csv --fields name,email,address --threshold 82
+[
+  {
+    "row_a": 2,
+    "row_b": 3,
+    "score": 88.85,
+    "field_scores": {
+      "name": 94.73684210526316,
+      "email": 90.0,
+      "address": 81.81818181818181
+    }
+  },
+  {
+    "row_a": 0,
+    "row_b": 1,
+    "score": 88.2,
+    "field_scores": {
+      "name": 73.6842105263158,
+      "email": 100.0,
+      "address": 90.9090909090909
+    }
+  }
+]
+
